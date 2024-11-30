@@ -371,11 +371,11 @@ ul {
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
+  background-image: url('../images/al\ thabit/LOGO_AL.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
-  width: 100%;
+  width: 250px !important;
   height: 100%;
 }
 
@@ -5052,12 +5052,15 @@ ul {
   margin-top: 6px;
 }
 .logo-mainn{
-  width: 100px !important;
+  width: 100% !important;
 }
 @media (max-width:991px){
   .logo-mainn{
     width: 50px !important;
   }
+}
+iframe{
+  width: 100% !important;
 }
 .footer-widget__services-list li a {
   position: relative;
@@ -11148,6 +11151,7 @@ body.boxed-wrapper {
 --------------------------------------------------------------*/
 .main-header__logo .dark-logo {
   display: block;
+  width: 230px;
 }
 
 .main-header__logo .light-logo {
